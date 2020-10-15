@@ -196,13 +196,35 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   max-height: 400px;
   word-wrap: normal; }
 
+/*==================================================================*/
+.melio-table {
+  /* position: relative; */
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+/* .reveal.melio-table-body { */
+/*   position: absolute;      */
+/*   max-height: 80px;        */
+/*   width: 100%;             */
+/*   overflow: auto;          */
+/* }                          */
+
 .reveal table {
   margin: auto;
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 .reveal table th {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #fff;
+  background-color: #16697a;
+  position: sticky;
+  top: 0;
+}
 
 .reveal table th,
 .reveal table td {
